@@ -1,0 +1,82 @@
+
+/*Elementos
+
+ul - lista no ordenada
+ol ordenada
+p paraffo
+div
+a
+table
+
+selectores
+
+id - unico
+class - estereotipo
+attributes - caracteristicas
+tags - p,a ...
+
+*/
+
+
+.contenedor{
+    color: black;
+}
+
+.contenedor h1 {
+    font-size: 20px;
+}
+
+.contenedor p span{
+    color: green;
+}
+
+.contenedor .otroparrafo {
+    color: yellow;
+}
+
+.contenedor-parrafo {color: black;
+}
+
+.contenedor p span {
+    color: blue;
+}
+
+.contenedor p:nth-of-type(1)~{
+    color: red;
+}
+
+.contenedr p span {
+    color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seleccionar pr id*/
+#t1{
+    color: cyan;
+}
+/*Seleccionar Por Clase*/
+.t2{
+    color: red;
+}
+/*Seleccionar por atributo entre "" cando quieres selecionar por valor*/
+[samuel] {
+    color: yellow;
+}
+[samuel="otro nombre"] {
+    color: pink;
+}
+/*Seleccionar por tag*/
+h4 {
+    color: violet;
+}
