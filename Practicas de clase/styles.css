@@ -1,0 +1,135 @@
+
+/*Elementos
+
+ul - lista no ordenada
+ol ordenada
+p paraffo
+div
+a
+table
+
+selectores
+
+id - unico
+class - estereotipo
+attributes - caracteristicas
+tags - p,a ...
+
+*/
+
+
+.contenedor{
+    color: black;
+}
+
+.contenedor h1 {
+    font-size: 20px;
+}
+
+.contenedor p span{
+    color: green;
+}
+
+.contenedor .otroparrafo {
+    color: yellow;
+}
+
+.contenedor-parrafo {color: black;
+}
+
+.contenedor p span {
+    color: blue;
+}
+
+.contenedor p:nth-of-type(1)~{
+    color: red;
+}
+.contenedor p:nth-of-type(1)+{
+    color: magenta;
+}
+
+.contenedr p span {
+    color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seleccionar pr id*/
+#t1{
+    color: cyan;
+}
+/*Seleccionar Por Clase*/
+.t2{
+    color: red;
+}
+/*Seleccionar por atributo entre "" cando quieres selecionar por valor*/
+[samuel] {
+    color: yellow;
+}
+[samuel="otro nombre"] {
+    color: pink;
+}
+/*Seleccionar por tag*/
+h4 {
+    color: violet;
+}
+
+/*.abuelo p:not([esteNO]){
+    color: red;}*/
+.abuelo p:has([esteNO]){
+
+
+}
+
+.padre {
+    color: aqua;
+}
+.hijo {
+    background-color: red;
+    color:blue;
+    transition: backgraound 0.3s ease. color 2s ease;
+    transition-property: backgraound;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+border-style: solid;
+border-width: 4px;
+border-color: pink;
+
+
+}
+.hijo:hover {
+    background: pink;
+    color:yellow;
+}
+
+
+/*pseudoelementos*/
+::before
+::after
+
+/*pseudoelementos*/
+/* primerero de su tipo*/
+:nth-last-child()
+/*ultimo de su tipo*/
+:last-child
+/*primer de su tipo*/
+:first-child
+/*mientras el cursor este arriba*/
+:hover
+/*omite*/
+:not()
