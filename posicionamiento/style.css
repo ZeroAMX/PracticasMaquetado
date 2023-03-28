@@ -1,0 +1,62 @@
+html, 
+body{  
+    background: #d5e1ef;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+.container{
+    background: pink;
+    height: 500px;
+    display: inline-block;
+    position: fixed;
+    width: 500px;
+}
+
+.container .square{
+    background: blue;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    transform: translate(-50, -50%);
+    width: 50px;
+}
+.container .square2{
+    background: red;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50px;
+}
+.container .square3{
+    background: green;
+    height: 15px;
+    display: block;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    /*transform: translate(0, -50%);*/
+    width: 50px;
+}
+
+
+
+
+
+/*position: static es default
+Relative
+absolute
+fixed
+stycky
+
+para modificar eje z es "z index"
+pra mofigicar y = top bottom
+para modificar x = left, rigth
+*/

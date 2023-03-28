@@ -1,0 +1,45 @@
+html.body {
+    background: #d5e1ef;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.cambiacolor{ 
+    color: blue;
+}
+.marcadeagua{
+    color: red;
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+@media (max-width: 1000px) {
+    
+    .cambiacolor{ 
+        color: red; 
+    
+    }
+@media (min-width: 700px) {
+    .cambiacolor{
+        border: solid 4px pink;
+    }
+}
+@media print {
+    .cambiacolor{
+        color: green;
+    }
+.marcadeagua {
+    display: block;
+
+}
+}   
+}
+    
+ 

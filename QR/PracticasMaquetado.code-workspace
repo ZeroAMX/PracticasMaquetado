@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Descargas/fuente/Rubik_Iso"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PracticasMaquetado"
+	}
+}
